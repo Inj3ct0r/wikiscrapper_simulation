@@ -10,12 +10,12 @@ import pandas as pd
 epochs = 4
 # Number of iterations (paths) of the simulation
 paths = 4
-# We simulate a universe of values that tries to mimics the amount of available links found by the crawler
+# We simulate a universe of values that tries to mimic the amount of available links found by the crawler
 num_links = 100
 universe = list(range(num_links))
 """
 Using a known universe of values to visit implies that visiting the same element is a probabilistic event rather than
-a random occurence
+a random occurence, the actual crawler behaviour has a volatile number of elements to visit due to the constant change of locations. 
 """
 
 # Create empty Digraph
@@ -63,7 +63,7 @@ pos[0] = np.array([0, 0])
 nx.draw(G, pos=pos, node_size=40)
 plt.show()
 
-# The initial element will always have 2 more degrees because it creates an edge pointing to itself on initial iteration so we substract them
+# The initial element will always have 2 more degrees because it creates an edge pointing to itself on initial iteration, so we substract them
 if degree_list[0]>2:
     degree_list[0]=degree_list[0]-2
 
