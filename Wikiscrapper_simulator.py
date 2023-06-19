@@ -31,7 +31,7 @@ for i in range(1,paths+1):
     links = random.choices(universe, k=epochs)
     # Assign the initial element as the first position to force each path to start from it
     links.insert(0, initial_link)
-    print("List %g" %i, links)
+    print("Path %g" %i, links)
     # Add edges to all the nodes in the path
     for link in links:
         G.add_edge(last_link, link)
