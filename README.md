@@ -22,9 +22,9 @@ List 1 [0, 95, 61, 43, 54]
 List 2 [0, 70, 28, 29, 32]
 List 3 [0, 5, 62, 14, 40]
 List 4 [0, 40, 89, 94, 26]
-
+```
 ![small-world network](https://github.com/Inj3ct0r/wikiscrapper_simulation/assets/95256181/bc87db80-299f-4f20-ace2-41f707b0b598)
 
-![image](/Screenshots/degrees barplot.png)
-```
+![degrees barplot](https://github.com/Inj3ct0r/wikiscrapper_simulation/assets/95256181/f6d64dd1-8508-477d-8f2d-7511044d4f83)
+
 ##### Taller de manejo y analisis de datos 2023
