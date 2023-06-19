@@ -18,10 +18,10 @@ The `wikiscrapper_simulation.py` takes three parameters: Epochs (how many nodes 
 ## Output
 Example using epochs=4, paths=4, num_list=100
 ```
-List 1 [0, 95, 61, 43, 54]
-List 2 [0, 70, 28, 29, 32]
-List 3 [0, 5, 62, 14, 40]
-List 4 [0, 40, 89, 94, 26]
+Path 1 [0, 95, 61, 43, 54]
+Path 2 [0, 70, 28, 29, 32]
+Path 3 [0, 5, 62, 14, 40]
+Path 4 [0, 40, 89, 94, 26]
 ```
 ![small-world network](https://github.com/Inj3ct0r/wikiscrapper_simulation/assets/95256181/bc87db80-299f-4f20-ace2-41f707b0b598)
 
